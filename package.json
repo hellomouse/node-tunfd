@@ -1,0 +1,31 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "node-addon-api": "^1.6.3",
+    "node-gyp": "^5.0.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "name": "tunfd",
+  "version": "0.1.0",
+  "description": "TUN/TAP devices for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iczero/node-tunfd.git"
+  },
+  "keywords": [
+    "networking",
+    "tun",
+    "tap",
+    "netlink",
+    "rtnetlink"
+  ],
+  "author": "iczero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iczero/node-tunfd/issues"
+  },
+  "homepage": "https://github.com/iczero/node-tunfd#readme"
+}
